@@ -5,13 +5,4 @@ import { Component } from '@angular/core';
   templateUrl: './app.component.html',
   styleUrls: ['./app.component.css']
 })
-export class AppComponent {
-
-  titulo: string = 'Contador App';
-  numero: number = 0;
-  base: number = 2;
-
-  acumular(valor: number): void{
-    this.numero += valor;
-  }
-}
+export class AppComponent {}
