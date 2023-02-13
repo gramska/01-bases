@@ -5,6 +5,7 @@ Este proyecto se encuentra repurado y no se encuentran los metodos y elementos q
 ## FormsModule
 
 Para el manejo de formularios en angular necesitamos:
+
 1.- Importar en modulo de formularios (FormsModule) en el modulo de nuestros componentes (Module).
 2.- Crear el formulario en el .html de nuestro componentes con la accion personalizada (ngSubmit), al parecer funciona tambien solo con (submit).
 3.- Por ultimo manejar la accion del ngSubmit con la funcion creada en el .ts de nuestro compoenente.
